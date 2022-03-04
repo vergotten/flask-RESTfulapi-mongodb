@@ -18,7 +18,11 @@ Libraries used in this project: <br />
 Entities are stored in MongoDB at localhost:27017 <br />
 
 To install dependencies and libraries use following command: <br />
-`pip install -r requirements.txt` <br />
+'''
+pip install -r requirements.txt
+'''
+<br />
+
 
 To launch mongodb in docker use: <br />
 `docker run -d -p 27017:27017 mongo` <br />
