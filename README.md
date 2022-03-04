@@ -18,14 +18,11 @@ Libraries used in this project: <br />
 Entities are stored in MongoDB at localhost:27017 <br />
 
 To install dependencies and libraries use following command: <br />
-'''
-pip install -r requirements.txt
-'''
-<br />
+***pip install -r requirements.txt*** <br />
 
 
 To launch mongodb in docker use: <br />
-`docker run -d -p 27017:27017 mongo` <br />
+***docker run -d -p 27017:27017 mongo*** <br />
 
 REST API methods: <br />
 - Create a new product <br />
@@ -38,7 +35,7 @@ REST API methods: <br />
 Methods accept JSON as input and return JSON as output. <br />
 
 To launch application use: <br /> 
-`python app.py` <br />
+***python app.py*** <br />
 
 # Curl commands: <br />
 
@@ -54,28 +51,28 @@ Json requests are presented in the form: <br />
 }`
 
 to add a single product use curl: <br />
-`curl -X POST localhost:5000/productsdb -H 'Content-Type: application/json' -d @curl_requests/products/1.json`
+***curl -X POST localhost:5000/productsdb -H 'Content-Type: application/json' -d @curl_requests/products/1.json***
 
 or you can add all products stored in products folder using .sh command: <br />
-`curl_requests/add_products.sh` <br />
+***curl_requests/add_products.sh*** <br />
 
 to show detailed information of the product by id use: <br />
-`curl -X GET localhost:5000/productsdb -H 'Content-Type: application/json' -d '{"database": "ProductsDB", "collection": "products", "Filter" : {"id" : 1}}'`
+***curl -X GET localhost:5000/productsdb -H 'Content-Type: application/json' -d '{"database": "ProductsDB", "collection": "products", "Filter" : {"id" : 1}}'***
 
 or .sh file:
-`curl_requests/get_product.sh` <br />
+***curl_requests/get_product.sh*** <br />
 
 to delete product by id use: <br />
-`curl -X DELETE localhost:5000/productsdb -H 'Content-Type: application/json' -d '{"database": "ProductsDB", "collection": "products", "Filter" : {"id" : 1}}'`
+***curl -X DELETE localhost:5000/productsdb -H 'Content-Type: application/json' -d '{"database": "ProductsDB", "collection": "products", "Filter" : {"id" : 1}}'***
 
 or .sh file:
-`curl_requests/delete_product.sh` <br />
+***curl_requests/delete_product.sh*** <br />
 
 to filter product by value-key use: <br />
-`curl -X GET localhost:5000/productsdb -H 'Content-Type: application/json' -d '{"database": "ProductsDB", "collection": "products", "Filter" : {"description" : "Laptop"}}'`
+***curl -X GET localhost:5000/productsdb -H 'Content-Type: application/json' -d '{"database": "ProductsDB", "collection": "products", "Filter" : {"description" : "Laptop"}}'***
 
 or .sh file:
-`curl_requests/filter_product.sh` <br />
+***curl_requests/filter_product.sh*** <br />
 
 # **Requirements**
 
