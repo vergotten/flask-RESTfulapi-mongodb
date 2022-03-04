@@ -1,0 +1,9 @@
+{
+  "database": "ProductsDB",
+  "collection": "products",
+  "Document": {
+    "id" : 3,
+    "name" : "Samsung Galaxy A03s",
+    "description" : "Smartphone"
+  }
+}

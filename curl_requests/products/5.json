@@ -1,0 +1,9 @@
+{
+  "database": "ProductsDB",
+  "collection": "products",
+  "Document": {
+    "id" : 5,
+    "name" : "Irbis TZ719 16 Gb 3G ",
+    "description" : "Tablet"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "database": "ProductsDB",
+  "collection": "products",
+  "Document": {
+    "id" : 1,
+    "name" : "ASUS Laptop E410KA-BV1422",
+    "description" : "Laptop"
+  }
+}

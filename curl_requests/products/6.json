@@ -1,0 +1,10 @@
+{
+  "database": "ProductsDB",
+  "collection": "products",
+  "Document": {
+    "id" : 6,
+    "name" : "Lenovo Tab M7 TB-7305I 16 Gb",
+    "description" : "Tablet"
+  }
+}
+

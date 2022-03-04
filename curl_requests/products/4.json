@@ -1,0 +1,9 @@
+{
+  "database": "ProductsDB",
+  "collection": "products",
+  "Document": {
+    "id" : 4,
+    "name" : "Infinix HOT 11S",
+    "description" : "Smartphone"
+  }
+}

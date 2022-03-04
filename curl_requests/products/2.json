@@ -1,0 +1,9 @@
+{
+  "database": "ProductsDB",
+  "collection": "products",
+  "Document": {
+    "id" : 2,
+    "name" : "ASUS VivoBook 17 F712EA-BX368",
+    "description" : "Laptop"
+  }
+}
