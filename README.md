@@ -1,23 +1,30 @@
-# **Flask-restfulapi-mongodb**
+# Flask RESTful API with MongoDB for E-Shop
 
-Microservice for e-shop <br />
-Model/entities: <br />
-- Products - is responsible for the goods in the warehouse, <br />
-for example - a phone with a name and manufacturer. <br />
+This repository contains a microservice for an e-shop, implemented using Flask and MongoDB. The microservice is designed to manage products in the warehouse of an e-shop. Each product, such as a phone, has a name, manufacturer, and other parameters.
 
-Fields: <br />
-- identifier (ID) <br />
-- title <br />
-- description <br />
-- parameters: array of key/value pairs <br />
+## Model/Entities
 
-Libraries used in this project: <br />
-- flask <br />
-- pymongo <br />
+The main entity in this microservice is the `Product`, which represents the goods in the warehouse. Each product has the following fields:
 
-Entities are stored in MongoDB at localhost:27017 <br />
+- `identifier (ID)`
+- `title`
+- `description`
+- `parameters`: an array of key/value pairs
 
-To install dependencies and libraries use following command: <br />
+## Libraries
+
+This project uses the following libraries:
+
+- `flask`: A lightweight WSGI web application framework.
+- `pymongo`: A Python driver for MongoDB.
+
+## Database
+
+Entities are stored in a MongoDB database running at `localhost:27017`.
+
+## Installation
+
+To install the dependencies and libraries, use the following command:
 ***pip install -r requirements.txt*** <br />
 
 
@@ -37,7 +44,7 @@ Methods accept JSON as input and return JSON as output. <br />
 To launch application use: <br /> 
 ***python app.py*** <br />
 
-# Curl commands: <br />
+## Curl commands:
 
 json product files are stored in curl_requests/products folder. <br />
 Json requests are presented in the form: <br />
